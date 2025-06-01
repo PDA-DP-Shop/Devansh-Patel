@@ -1,0 +1,119 @@
+=== ADMIN NOTIFICATION TEMPLATE (HTML) ===
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Contact Form Submission</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+    <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+        <h2 style="color: #2c3e50; margin-bottom: 20px;">New Contact Form Submission</h2>
+        
+        <div style="background-color: white; padding: 20px; border-radius: 6px; margin-bottom: 20px;">
+            <p style="margin: 0 0 15px 0;"><strong>To:</strong> {{to_email}}</p>
+            <p style="margin: 0 0 15px 0;"><strong>From:</strong> {{name}}</p>
+            <p style="margin: 0 0 15px 0;"><strong>Email:</strong> {{email}}</p>
+            
+            <div style="margin-top: 20px;">
+                <h3 style="color: #2c3e50; margin-bottom: 10px;">Message:</h3>
+                <div style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #3498db;">
+                    {{message}}
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e9ecef;">
+            <p style="margin: 0; color: #6c757d;">This is an automated message from your portfolio website.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+=== USER CONFIRMATION TEMPLATE (HTML) ===
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you for contacting Devansh Patel</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+    <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h1 style="color: #2c3e50; margin-bottom: 10px;">Thank You!</h1>
+            <p style="color: #6c757d; margin: 0;">Your message has been received.</p>
+        </div>
+
+        <div style="background-color: white; padding: 20px; border-radius: 6px; margin-bottom: 20px;">
+            <p style="margin: 0 0 15px 0;">Dear {{name}},</p>
+            
+            <p style="margin: 0 0 15px 0;">Thank you for reaching out to me through my portfolio website. I have received your message and will get back to you as soon as possible.</p>
+
+            <div style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #3498db;">
+                <h3 style="color: #2c3e50; margin: 0 0 10px 0;">Your Message:</h3>
+                {{message}}
+            </div>
+
+            <p style="margin: 15px 0;">If you have any additional information to share, please feel free to reply to this email.</p>
+        </div>
+
+        <div style="background-color: white; padding: 20px; border-radius: 6px; margin-bottom: 20px;">
+            <h3 style="color: #2c3e50; margin: 0 0 15px 0;">Contact Information</h3>
+            <div style="display: grid; gap: 10px;">
+                <p style="margin: 0;"><strong>Email:</strong> <a href="mailto:{{email}}" style="color: #3498db; text-decoration: none;">{{email}}</a></p>
+                <p style="margin: 0;"><strong>Phone:</strong> <a href="tel:+918000662685" style="color: #3498db; text-decoration: none;">+91 8000-662-685</a></p>
+                <p style="margin: 0;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/patel-devansh-296a86344" style="color: #3498db; text-decoration: none;">Connect on LinkedIn</a></p>
+                <p style="margin: 0;"><strong>GitHub:</strong> <a href="https://github.com/dashboard" style="color: #3498db; text-decoration: none;">View GitHub Profile</a></p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e9ecef;">
+            <p style="margin: 0; color: #6c757d;">Best regards,<br>Devansh Patel<br>Full Stack Developer</p>
+        </div>
+    </div>
+</body>
+</html>
+
+=== HOW TO USE THESE HTML TEMPLATES ===
+1. Log in to your EmailJS account
+2. Go to Email Templates
+3. Create two new templates:
+   a. Admin Notification Template
+   b. User Confirmation Template
+4. Copy and paste the respective HTML template content
+5. Make sure to select "HTML" as the template type
+6. Save the templates
+7. Note down the Template IDs
+8. Replace 'YOUR_TEMPLATE_ID' in the JavaScript code with these IDs
+
+=== TEMPLATE FEATURES ===
+1. Responsive design that works on all devices
+2. Clean and professional layout
+3. Proper spacing and typography
+4. Subtle colors and borders
+5. Clickable email and phone links
+6. Social media links
+7. Mobile-friendly design
+
+=== CUSTOMIZATION OPTIONS ===
+1. Colors:
+   - Main text: #333
+   - Headings: #2c3e50
+   - Links: #3498db
+   - Background: #f8f9fa
+   - Secondary text: #6c757d
+
+2. Fonts:
+   - Primary: Arial, sans-serif
+   - You can change to any web-safe font
+
+3. Spacing:
+   - Padding: 20px
+   - Margins: 15px
+   - Border radius: 8px
+
+4. Layout:
+   - Max width: 600px
+   - Centered content
+   - Responsive grid for contact info 
