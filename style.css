@@ -442,14 +442,19 @@ body.light-theme .scroll-header {
 
 .home__handle {
     justify-content: center;
-    width: 350px;
+    width: min(190px, 80%);
     height: 350px;
-    background-color: var(--first-color);
-    border-radius: 50%;
+    aspect-ratio: 190/293;
+    background: linear-gradient(180deg,
+                hsla(var(--first-hue), var(--sat), var(--lig), 1),
+                hsla(var(--first-hue), var(--sat), var(--lig), .2)
+            );
+    border-radius: 10rem 10rem 1rem 1rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .home__buttons {
