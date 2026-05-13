@@ -1,0 +1,1960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0e1422">
+    <meta name="description" content="Devansh Patel's Portfolio">
+    <meta name="author" content="Devansh Patel">
+    <meta name="keywords" content="Devansh Patel, Portfolio, Full Stack Developer, Web Developer, Software Engineer">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Devansh Patel</title>
+
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js" async></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="image/logo.png" alt="Devansh Patel" class="nav__logo-img">
+                <p class="nav__logo">Devansh Patel</p>
+            </a>
+
+            <!-- Theme change button -->
+            <div class="nav__btns">
+                <button type="button" id="theme-button" class="theme-button">
+                    <i class='bx bx-moon'></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Bottom Navigation -->
+    <div class="nav__menu">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#about" class="nav__link" data-nav-link>
+                    <i class='bx bx-user'></i>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#projects" class="nav__link" data-nav-link>
+                    <i class='bx bx-briefcase-alt-2'></i>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#internship" class="nav__link" data-nav-link>
+                    <i class='bx bx-buildings'></i>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#hackathons" class="nav__link" data-nav-link>
+                    <i class='bx bx-rocket'></i>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#achievements" class="nav__link" data-nav-link>
+                    <i class='bx bx-trophy'></i>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#certificates" class="nav__link" data-nav-link>
+                    <i class='bx bx-award'></i>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#contact" class="nav__link" data-nav-link>
+                    <i class='bx bx-message-square-detail'></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main -->
+    <main class="main">
+        
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Patel Devansh</h1>
+                        <h3 class="home__education" style="color: var(--first-color);">Full Stack Developer</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="resume/DP_resume.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle" style="margin-top: 25px;">
+                        <img src="image/2U7A4477-removebg-preview.png" 
+                             alt="Patel Devansh - Full Stack Developer" 
+                             class="home__img" loading="lazy">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/patel-devansh-296a86344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" class="home__social-link" aria-label="LinkedIn Profile">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer" class="home__social-link" aria-label="GitHub Profile">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://x.com/pateldevansh159?s=21" target="_blank" rel="noopener noreferrer" class="home__social-link" aria-label="Twitter Profile">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <span class="section__subtitle" style="color: var(--first-color);">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+ 
+            <div class="home__handle_avatar" style="margin-top: 25px;">
+                        <model-viewer 
+                            src="image/avatar/avatar_devansh.glb" 
+                            alt="3D Avatar of Devansh Patel" 
+                            auto-rotate 
+                            camera-controls
+                            disable-zoom 
+                            shadow-intensity="1"
+                            camera-orbit="0deg 90deg 2.5m"
+                            field-of-view="30deg"
+                            style="width: 100%; height: 100%; background-color: transparent;"
+                            interaction-prompt="none"
+                            loading="lazy">
+                        </model-viewer>
+                    </div>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Continue</h3>
+                            <span class="about__subtitle">Degree 4-year</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">25+ Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-book-open about__icon'></i>
+                            <h3 class="about__title">87.44%</h3>
+                            <span class="about__subtitle">10th Board</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bxs-graduation about__icon'></i>
+                            <h3 class="about__title">9.81 CGPA</h3>
+                            <span class="about__subtitle">Diploma</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-medal about__icon'></i>
+                            <h3 class="about__title">9.06 CPI</h3>
+                            <span class="about__subtitle">B.Tech Degree</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Full stack developer with a passion for creating elegant, efficient solutions. 
+                        Experienced in modern web technologies and best practices. 
+                        Committed to delivering high-quality code and exceptional user experiences.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle" style="color: var(--first-color);">My Abilities</span>
+            <h2 class="section__title">My Skills</h2>
+
+            <div class="skills__container container grid">
+                <!-- Frontend Skills -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Tailwind</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Other</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Cloudflare</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <div class="projects__header">
+                <span class="section__subtitle" style="color: var(--first-color);">Latest Projects</span>
+                <h2 class="section__title">Project Timeline</h2>
+                <p class="projects__description">
+                    Explore my journey through various projects, from concept to completion.
+                </p>
+            </div>
+            <div class="projects__container container">
+                <div class="projects__timeline">
+                    <!-- Project 22 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/spendly.jpeg" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Spendly</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">React.js</span>
+                                        <span class="stack__item">Tailwind CSS</span>
+                                        <span class="stack__item">Framer Motion</span>
+                                        <span class="stack__item">Node.js</span>
+                                        <span class="stack__item">Express.js</span>
+                                        <span class="stack__item">SQL</span>
+                                        <span class="stack__item">Socket.io</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Spendly is a privacy-first personal expense tracker PWA built for Indian users that works completely offline with zero login, zero cloud, and zero data sharing — every rupee you spend is tracked, categorized, and encrypted on your own device using AES-256-GCM, with smart barcode scanning, bill OCR, UPI payment detection, a full udhar system to track what shops you owe, and local shop offers delivered to you — all without anyone, including us, ever seeing your financial data.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>30K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on LIVE</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://spendly-24hrs.pages.dev'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 21 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">    
+                                    <img src="image/spendly-shop.jpeg" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Spendly Shop</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">React.js</span>
+                                        <span class="stack__item">Tailwind CSS</span>
+                                        <span class="stack__item">Framer Motion</span>
+                                        <span class="stack__item">Node.js</span>
+                                        <span class="stack__item">Express.js</span>
+                                        <span class="stack__item">SQL</span>
+                                        <span class="stack__item">Socket.io</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Spendly Shop is an offline-first merchant billing PWA for Indian shop owners that lets them create itemized bills, manage customer credit and udhar, share bills via NFC, QR, or WhatsApp, scan customer Spendly QR codes to pull up their complete credit history, accept and record payments, and generate branded barcode labels for their products — all stored privately on their own device with zero cloud involvement and direct peer-to-peer connection to Spendly Radar for real-time stock and offer intelligence.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>32K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://spendly-shop.pages.dev'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 20 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/spendly-radar.jpeg" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Spendly Radar</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">React.js</span>
+                                        <span class="stack__item">Tailwind CSS</span>
+                                        <span class="stack__item">Framer Motion</span>
+                                        <span class="stack__item">Node.js</span>
+                                        <span class="stack__item">Express.js</span>
+                                        <span class="stack__item">SQL</span>
+                                        <span class="stack__item">Socket.io</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Spendly Radar is a business intelligence PWA for shop owners that shows real anonymous spending trends from opted-in Spendly users in their local area, predicts tomorrow’s stock demand, lets shops create and manage hyperlocal offers that are sent directly to nearby customers, tracks stock with unique EAN-13 barcodes, and generates weekly business health reports — all powered by zero personal data, fully anonymous aggregation, and direct PeerJS sync with Spendly Shop.​​​​​​​​​​​​​​​​    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>21K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on LIVE</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://spendly-radar.pages.dev'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 19 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">    
+                                    <img src="image/SkillSwap.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">SkillSwap 2026</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        SkillSwap is a revolutionary global platform designed to democratize education. We believe knowledge should be free and accessible to everyone. Our community allows you to exchange your expertise for new skills, connecting with passionate learners worldwide without any monetary transactions.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>18K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://skillswap-58fb7.web.app/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 18 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/Screenshot 2026-05-12 at 1.51.03 PM.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status undevelopement">
+                                        <span class="status__dot" style="color: yellow"></span>
+                                        In Progress
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Avajo.com</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">React.js</span>
+                                        <span class="stack__item">Tailwind CSS</span>
+                                        <span class="stack__item">Framer Motion</span>
+                                        <span class="stack__item">Node.js</span>
+                                        <span class="stack__item">Express.js</span>
+                                        <span class="stack__item">SQL</span>
+                                        <span class="stack__item">Socket.io</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Avajo.com is a state-of-the-art real estate platform designed for the Indian market, focusing on premium listings, immersive user experiences, and AI-driven insights. Built with a sleek, modern aesthetic using Framer Motion for fluid animations and Firebase for real-time data persistence.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on LIVE</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://github.com/PDA-DP-Shop/Avajo.com'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 17 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">    
+                                    <img src="image/Learnova.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Learnova</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">React.js</span>
+                                        <span class="stack__item">Tailwind CSS</span>
+                                        <span class="stack__item">Framer Motion</span>
+                                        <span class="stack__item">Node.js</span>
+                                        <span class="stack__item">Express.js</span>
+                                        <span class="stack__item">SQL</span>
+                                        <span class="stack__item">Socket.io</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Learnova is a production-grade eLearning platform where instructors build and publish courses, learners join and study through a full-screen player, attempt quizzes, earn points and unlock badges — complete with a realistic payment flow and automated Gmail email notifications.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>18K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>Final round : 24-Hour Odoo X Gujarat Vidhyapith Hackathon · 2026</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://github.com/PDA-DP-Shop/Learnova'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 16 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/fleetflow.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">FleetFlow</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">React.js</span>
+                                        <span class="stack__item">Tailwind CSS</span>
+                                        <span class="stack__item">Framer Motion</span>
+                                        <span class="stack__item">Node.js</span>
+                                        <span class="stack__item">Express.js</span>
+                                        <span class="stack__item">SQL</span>
+                                        <span class="stack__item">Socket.io</span>
+                                    </div>
+                                    <p class="project__description">
+                                        FleetFlow is a smart fleet management and logistics platform designed to streamline vehicle tracking, transportation operations, and delivery management through a modern digital interface. The project focuses on providing real-time monitoring, efficient route management, and data-driven logistics solutions with a responsive and interactive user experience. Built using modern web technologies, FleetFlow showcases scalable frontend architecture, smooth animations, dashboard-style UI design, and practical transportation management concepts.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on LIVE</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>Virtual round : 24-Hour Odoo X Gujarat Vidhyapith Hackathon · 2026</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://github.com/PDA-DP-Shop/FleetFlow'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 15 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">    
+                                    <img src="image/Screenshot 2026-05-12 at 1.59.29 PM.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">VISION AI</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                        <span class="stack__item">Python</span>
+                                    </div>
+                                    <p class="project__description">
+                                        VISION-AI is an innovative AI-powered web application focused on delivering smart, intelligent, and user-centric digital experiences using modern web technologies. The project combines clean UI/UX design with AI-driven functionality to create an interactive and scalable platform for future-ready solutions. Built with a modern development approach, VISION-AI showcases frontend creativity, responsive design, animations, and practical implementation of AI-based concepts.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>18K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://github.com/PDA-DP-Shop/VISION-AI'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 14 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/Screenshot 2026-05-12 at 2.00.38 PM.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">SANODE</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        SANODE Healthcare is a modern healthcare and pharmaceutical website focused on delivering quality medicines with compliance, innovation, and reliability.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on LIVE</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/SANODE/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 13 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">    
+                                    <img src="image/R.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Resume.com</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Resume.com (hosted at pda-dp-shop.github.io/Resume.com) is a free, easy-to-use online resume builder designed to help students, fresh graduates, and job seekers create professional, ATS-friendly resumes in minutes. With a simple interface, users can fill in personal details, choose from a variety of clean and modern templates, and instantly download polished PDF resumes without any cost or hidden fees. The tool is fully mobile-friendly and automatically saves progress, enabling job seekers worldwide to build standout resumes quickly and confidently.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>18K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/Resume.com'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 12 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/HK.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">HKOverseas.com</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        HKOverseas.com is a global import and export company specializing in high-quality handicraft products and traditional as well as modern apparel, connecting skilled manufacturers and artisans with international markets worldwide. The company focuses on sourcing, exporting, and trading premium handcrafted items and fashion garments, ensuring quality, reliability, and timely delivery across borders. With a strong commitment to ethical trade, customer satisfaction, and long-term business partnerships, HK Overseas serves clients across multiple countries, helping promote Indian craftsmanship and textile excellence on a global platform.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on LIVE</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://hkoverseas.com'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    
+                    <!-- Project 11 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/NCT.png" 
+                                         alt="NCT Website" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Nirmaan Chemtech</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        The NCT (Nirmaan Chemtech) website is a professionally designed, responsive business site showcasing a construction chemicals company, featuring key sections such as Home, About, Products, Projects, Clients, and Contact to effectively present the company’s services and solutions. It highlights the brand’s commitment to quality and innovation in construction chemical products like waterproofing systems, structural strengthening compounds, and industrial coatings, while also including client testimonials and easy navigation to engage visitors. The site is built with clean layout, clear calls-to-action, and industry-focused content, demonstrating both practical UI/UX design and real-world business relevance.      
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>10K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/NCT-website'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 10 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2026</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/AIM.png" 
+                                         alt="DP AIM" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">DP AI Medical Report Explainer</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">Python</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Many patients receive reports filled with complex medical terms and numbers — but no clear explanation.<br>
+                                        This inspired me to build AI Medical Report Explainer 👇<br>
+                                        <br>
+                                        🔍 What it does:<br>
+                                        • Upload a medical report (PDF or Image)<br>
+                                        • Choose your preferred language (English, Hindi, Gujarati)<br>
+                                        • Get a clear, easy-to-understand explanation<br>
+                                        <br>
+                                        🎯 Who is it for?<br>
+                                        • Patients<br>
+                                        • Elderly people<br>
+                                        • Anyone confused by medical terms<br>
+                                        <br>
+                                        ⚠️ Explanations are for educational purposes only. Always consult a certified doctor.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>Python</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://ai-medical-report-explainer.streamlit.app'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 9 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/AIIC.png" 
+                                         alt="DP AIIC" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">DP AI Image Classification</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">Python</span>
+                                    </div>
+                                    <p class="project__description">
+                                        DPAI Image Classification is a handy online tool that lets you upload an image and instantly get it classified using AI. The tool analyzes what’s in the image — like objects, scenes, or categories — and returns a clear label or prediction. It’s simple to use and fast, making it great for anyone who wants quick AI-powered image recognition without installing anything.    
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>1K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://dpaiimageclassfication.streamlit.app/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 8 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/AIR.png" 
+                                         alt="DP AIR" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">DP AI Resume Classification</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">Python</span>
+                                    </div>
+                                    <p class="project__description">
+                                        AI Resume Analyzer helps you quickly check and improve your resume using AI. Just upload your CV and the tool analyzes skills, keywords, formatting, and ATS-match. It highlights strengths and weaknesses and gives simple suggestions to make your resume more professional and job-ready.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>Python</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% code on GITUP</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://ai-resume-analyser-by-dp-befynuo9qnpwb4prad9b8h.streamlit.app'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 7 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/scs.png" 
+                                         alt="scs Website" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">SCS [School College Student]</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        SCS is a school and college student attendance management system that helps teachers and faculty easily record attendance, while rewarding students with points based on their presence.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>20K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Frontend</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Backend</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/SCS/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 6 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/AIDP.png" 
+                                         alt="DP AIDP" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">DP Chatbot</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">IBM Course</span>
+                                    </div>
+                                    <p class="project__description">
+                                        This DP chatbot allows users to explore information about me, including my skills, study background, address, and personal details, through an interactive conversation.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>IBM Course</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Certify</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Make by me</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fjp-tok.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-8ac5cd08-413d-4cd0-af94-c5eed8d2b267%3A%3A0a7cc437-77c6-4195-aee1-89eb7165e640&integrationID=8fa164b8-0a7a-457e-b0f7-0425e6526477&region=jp-tok&serviceInstanceID=8ac5cd08-413d-4cd0-af94-c5eed8d2b267'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 5 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/navratri.png" 
+                                         alt="navratri Website" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Navratri Garba Training Classes</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Navratri Garba is a streamlined platform designed to maintain payment history, allowing users to easily view previous fees and add new payment records with accuracy and convenience.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>7K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Frontend</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Backend</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/Navratri-Class/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 4 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/Homebudget.png" 
+                                         alt="Home budgets" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Home Budgets</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        HomeBudget is a smart personal finance management website that helps families track and control their daily, weekly, monthly, and yearly expenses, providing real-time insights using automated calculations, clean dashboards, and intelligent data summaries to make budgeting easier, smarter, and more organized for every user.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>5K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Frontend</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Backend</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/Home-Budgest/index.html'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 1 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/p3.JPG" 
+                                         alt="E-commerce Website" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Parmeshwar Group</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Parmeshwar Group is a company that provides services to the people. User see a property of flat side. See a Side photo and also download the property brochure. And get the contact details of the property. and also see the location of the property.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Frontend</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Backend</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://parmeshwargroup.co/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project__item left">
+                        <div class="project__content">
+                            <div class="project__year">2025</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/p2.JPG" 
+                                         alt="Wellcure" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">Wellcure</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                        <span class="stack__item">Node.js</span>
+                                    </div>
+                                    <p class="project__description">
+                                        Wellcure is a website for a health  and fitness company. It predict a Disease from the symptoms. It used a Machine Learning Model to predict the disease. it used AI to predict the disease. 24/7 live news about world health.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-star'></i>
+                                            <span>4.8 Rating</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Frontend $ Backend</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/WELLCURE/index.html'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project__item right">
+                        <div class="project__content">
+                            <div class="project__year">2024</div>
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="image/p1.png" 
+                                         alt="Health & Fitness Platform" loading="lazy">
+                                    <div class="project__status completed">
+                                        <span class="status__dot"></span>
+                                        Completed
+                                    </div>
+                                </div>
+                                <div class="project__data">
+                                    <h3 class="project__title">E-commerce Website</h3>
+                                    <div class="project__stack">
+                                        <span class="stack__item">HTML</span>
+                                        <span class="stack__item">CSS</span>
+                                        <span class="stack__item">JavaScript</span>
+                                    </div>
+                                    <p class="project__description">
+                                        E-commerce website with a modern and responsive design. It sell the products and services of the company. Sell Clothes, Shoes, Bags, Watches, Jewelry, and Sporting Goods. It has a modern and responsive design. Dynamic animations and smooth transitions.
+                                    </p>
+                                    <div class="project__stats">
+                                        <div class="stat__item">
+                                            <i class='bx bx-code-block'></i>
+                                            <span>15K+ Lines</span>
+                                        </div>
+                                        <div class="stat__item">
+                                            <i class='bx bx-git-branch'></i>
+                                            <span>100% Complete Frontend</span>
+                                        </div>
+                                    </div>
+                                    <div class="project__links">
+                                        <button  class="button" onclick="window.location.href='https://pda-dp-shop.github.io/DPSHOP-Online/'">
+                                              Preview
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship -->
+        <section class="internship section" id="internship">
+            <span class="section__subtitle" style="color: var(--first-color);">My Experience</span>
+            <h2 class="section__title">Internship</h2>
+
+            <div class="internship__container container grid">
+                <div class="internship__content">
+                    <!-- Internship 1 -->
+                    <div class="internship__box">
+                        <i class='bx bx-code-alt internship__icon'></i>
+                        <h3 class="internship__title">Django Web Developer</h3>
+                        <span class="internship__company">Falcon Technocraft</span>
+                        <p class="internship__description">
+                            Worked on Django-based web development, focusing on backend logic, database schema design, and seamless integration with frontend components.
+                        </p>
+                        <div class="internship__footer">
+                            <span class="internship__date">2023</span>
+                            <span class="internship__badge">3 Months</span>
+                        </div>
+                    </div>
+
+                    <!-- Internship 2 -->
+                    <div class="internship__box">
+                        <i class='bx bxl-python internship__icon'></i>
+                        <h3 class="internship__title">Python Developer</h3>
+                        <span class="internship__company">Patel Web Solution</span>
+                        <p class="internship__description">
+                            Built a strong foundation in Python programming and practical problem solving. Developed efficient scripts and contributed to core logic modules.
+                        </p>
+                        <div class="internship__footer">
+                            <span class="internship__date">2022</span>
+                            <span class="internship__badge">3 Months</span>
+                        </div>
+                    </div>
+
+                    <!-- Internship 3 (Current) -->
+                    <div class="internship__box">
+                        <i class='bx bx-laptop internship__icon'></i>
+                        <h3 class="internship__title">Web Development (Python)</h3>
+                        <span class="internship__company">Infolabz</span>
+                        <p class="internship__description">
+                            Currently working on modern web architectures using Python, focusing on building responsive and feature-rich web applications.
+                        </p>
+                        <div class="internship__footer">
+                            <span class="internship__date">2026</span>
+                            <span class="internship__badge">1 Month</span>
+                        </div>
+                    </div>
+
+                    <!-- Internship 4 (Current) -->
+                    <div class="internship__box">
+                        <i class='bx bx-code-block internship__icon'></i>
+                        <h3 class="internship__title">Django Developer</h3>
+                        <span class="internship__company">BrainyBeam</span>
+                        <p class="internship__description">
+                            Specializing in Python with Django to develop robust backend systems, manage databases, and implement complex application logic.
+                        </p>
+                        <div class="internship__footer">
+                            <span class="internship__date">2026</span>
+                            <span class="internship__badge">1 Month</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathons -->
+        <section class="hackathons section" id="hackathons">
+            <span class="section__subtitle" style="color: var(--first-color);">Competitions</span>
+            <h2 class="section__title">Hackathons</h2>
+
+            <div class="hackathons__container container grid">
+                <!-- Hackathon 1: Odoo -->
+                <div class="hackathon__card hackathon-preview-trigger" data-images='["image/hackathon/odoo/IMG_2997.jpg", "image/hackathon/odoo/IMG_2535.jpg", "image/hackathon/odoo/IMG_2505.jpg", "image/hackathon/odoo/IMG_2492.jpg"]'>
+                    <div class="hackathon__img-side card__slider">
+                        <div class="slider__container">
+                            <img src="image/hackathon/odoo/IMG_2997.jpg" alt="Odoo Hackathon 1" class="slider__img active" loading="lazy">
+                            <img src="image/hackathon/odoo/IMG_2535.jpg" alt="Odoo Hackathon 2" class="slider__img" loading="lazy">
+                            <img src="image/hackathon/odoo/IMG_2505.jpg" alt="Odoo Hackathon 3" class="slider__img" loading="lazy">
+                            <img src="image/hackathon/odoo/IMG_2492.jpg" alt="Odoo Hackathon 4" class="slider__img" loading="lazy">
+                        </div>
+                        <div class="slider__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View Gallery</span>
+                        </div>
+                    </div>
+                    <div class="hackathon__content">
+                        <div class="hackathon__header">
+                            <i class='bx bx-code-alt hackathon__icon'></i>
+                            <h3 class="hackathon__title">Odoo X Gujarat Vidhyapith</h3>
+                        </div>
+                        <span class="hackathon__date">2026</span>
+                        <p class="hackathon__description">
+                            Participated in the 24-hour hackathon. Successfully cleared the virtual round and reached the final offline round with 'Learnova' and 'FleetFlow' projects.
+                        </p>
+                        <span class="hackathon__result"><i class='bx bx-trophy'></i> Finalist</span>
+                    </div>
+                </div>
+
+                <!-- Hackathon 2: ISRO -->
+                <div class="hackathon__card hackathon-preview-trigger" data-images='["image/hackathon/isro/IMG_3003.jpg"]'>
+                    <div class="hackathon__img-side">
+                        <img src="image/hackathon/isro/IMG_3003.jpg" alt="ISRO Hackathon Certificate" loading="lazy">
+                        <div class="slider__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View Photo</span>
+                        </div>
+                    </div>
+                    <div class="hackathon__content">
+                        <div class="hackathon__header">
+                            <i class='bx bx-rocket hackathon__icon'></i>
+                            <h3 class="hackathon__title">ISRO Hackathon</h3>
+                        </div>
+                        <span class="hackathon__date">2025</span>
+                        <p class="hackathon__description">
+                            Participated in the prestigious ISRO hackathon, developing innovative space-tech solutions and data visualization tools.
+                        </p>
+                        <span class="hackathon__result"><i class='bx bx-medal'></i> Participant</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Achievements -->
+        <section class="achievements section" id="achievements">
+            <span class="section__subtitle" style="color: var(--first-color);">Success Stories</span>
+            <h2 class="section__title">Achievements</h2>
+
+            <div class="achievements__container container grid">
+                <!-- Achievement 1: Merit Scholarship -->
+                <div class="achievement__card hackathon-preview-trigger" data-images='["image/accument/IMG_3001.jpg"]'>
+                    <div class="achievement__img-wrapper" style="background-image: url('image/accument/IMG_3001.jpg');">
+                        <img src="image/accument/IMG_3001.jpg" alt="Merit Scholarship Certificate" class="achievement__img" loading="lazy">
+                        <div class="achievement__overlay">
+                            <i class='bx bx-expand-alt'></i>
+                            <span>View Certificate</span>
+                        </div>
+                        <div class="achievement__year">2026</div>
+                    </div>
+                    <div class="achievement__content">
+                        <div class="achievement__header">
+                            <div class="achievement__icon-box">
+                                <i class='bx bx-trophy'></i>
+                            </div>
+                            <h3 class="achievement__title">Merit Scholarship</h3>
+                        </div>
+                        <p class="achievement__description">
+                            Awarded the <b>Shri Maneklal M. Patel Memorial Merit Scholarship</b> by Kadi Sarva Vishwavidyalaya for academic excellence in B.E IT.
+                        </p>
+                        <div class="achievement__tags">
+                            <span class="achievement__tag">Academic Merit</span>
+                            <span class="achievement__tag">Kadi Sarva Vishwavidyalaya</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 2: First Rank Topper -->
+                <div class="achievement__card hackathon-preview-trigger" data-images='["image/accument/IMG_3006 2.jpg"]'>
+                    <div class="achievement__img-wrapper" style="background-image: url('image/accument/IMG_3006 2.jpg');">
+                        <img src="image/accument/IMG_3006 2.jpg" alt="First Rank Certificate" class="achievement__img" loading="lazy">
+                        <div class="achievement__overlay">
+                            <i class='bx bx-expand-alt'></i>
+                            <span>View Certificate</span>
+                        </div>
+                        <div class="achievement__year">2025</div>
+                    </div>
+                    <div class="achievement__content">
+                        <div class="achievement__header">
+                            <div class="achievement__icon-box gold">
+                                <i class='bx bx-medal'></i>
+                            </div>
+                            <h3 class="achievement__title">1st Rank Topper</h3>
+                        </div>
+                        <p class="achievement__description">
+                            Secured <b>First Rank</b> in the Information Technology Programme at R.C Technical Institute for the academic year 2023-24.
+                        </p>
+                        <div class="achievement__tags">
+                            <span class="achievement__tag">Gold Medalist</span>
+                            <span class="achievement__tag">AARC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <section class="certificates section" id="certificates">
+            <span class="section__subtitle" style="color: var(--first-color);">Achievements</span>
+            <h2 class="section__title">Certificates</h2>
+
+            <div class="cert__grid container">
+                <!-- Certificate Card 1 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /Build Your Generative AI Productivity Skills with Microsoft and LinkedIn.png" alt="Generative AI Productivity" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Generative AI Productivity</h3>
+                        <span class="cert__issuer certificate-card__tag">Microsoft & LinkedIn</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 2 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /Saylor Academy awards[ introduction to python ].png" alt="Intro to Python" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Intro to Python</h3>
+                        <span class="cert__issuer certificate-card__tag">Saylor Academy</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 3 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /IBM Build your chatbot.png" alt="Build Your Chatbot" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Build Your Chatbot</h3>
+                        <span class="cert__issuer certificate-card__tag">IBM</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 4 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /AWS : Exploring Artificial Intelligence Use Cases and Applications.png" alt="AI Use Cases" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">AI Use Cases</h3>
+                        <span class="cert__issuer certificate-card__tag">AWS</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 5 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /Algorithms and Programming Concepts [SIDH].png" alt="Algorithms & Programming" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Algorithms & Programming</h3>
+                        <span class="cert__issuer certificate-card__tag">SIDH</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 6 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /AWS : Fundamentals of Machine Learning and Artificial Intelligence.png" alt="ML & AI Fundamentals" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">ML & AI Fundamentals</h3>
+                        <span class="cert__issuer certificate-card__tag">AWS</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 7 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /IBM Python with data science .png" alt="Python for Data Science" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Python for Data Science</h3>
+                        <span class="cert__issuer certificate-card__tag">IBM</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 8 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /IBM : Machine Learning with python.png" alt="ML with Python" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">ML with Python</h3>
+                        <span class="cert__issuer certificate-card__tag">IBM</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 9 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /IMG_3002 2.jpg" alt="Certificate" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Python for data science </h3>
+                        <span class="cert__issuer certificate-card__tag">NPTEL</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 10 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /IMG_3004.jpg" alt="Certificate" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Python django</h3>
+                        <span class="cert__issuer certificate-card__tag">IEEE</span>
+                        <span class="cert__issuer certificate-card__tag">Akask Techolabs</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 11 -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/Certificate /IMG_3005 2.jpg" alt="Certificate" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">NO Code AI Tool in Action</h3>
+                        <span class="cert__issuer certificate-card__tag">IDEE PIE Club</span>
+                        <span class="cert__issuer certificate-card__tag">Data Vidwan</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 12: ISRO -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/hackathon/isro/IMG_3003.jpg" alt="ISRO Hackathon Certificate" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">ISRO Hackathon</h3>
+                        <span class="cert__issuer certificate-card__tag">ISRO</span>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 13: Odoo -->
+                <div class="cert__item certificate-card__inner">
+                    <div class="cert__img-wrapper">
+                        <img src="image/hackathon/odoo/IMG_2997.jpg" alt="Odoo Hackathon Certificate" class="certificate__img" loading="lazy">
+                        <div class="cert__overlay certificate-card__overlay">
+                            <i class='bx bx-zoom-in'></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="cert__info">
+                        <h3 class="cert__title certificate-card__title">Odoo X GV Hackathon</h3>
+                        <span class="cert__issuer certificate-card__tag">Odoo</span>
+                        <span class="cert__issuer certificate-card__tag">Gujarat Vidhyapith</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle" style="color: var(--first-color);">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">devanshpatel12022005@gmail.com</span>
+                            <a href="mailto:devanshpatel12022005@gmail.com" class="contact__button">
+                                Mail me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+91 8000-662-685</span>
+                            <a href="https://wa.me/918000662685" class="contact__button">
+                                Text me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bx-phone contact__card-icon'></i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">+91 8000-662-685</span>
+                            <a href="tel:+918000662685" class="contact__button">
+                                Call me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your project</h3>
+
+                    <form action="https://formspree.io/f/xqabzvzk" method="POST" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input 
+                                type="text" 
+                                name="name" 
+                                id="name"
+                                placeholder="Insert your name" 
+                                class="contact__form-input"
+                                required
+                            >
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Email</label>
+                            <input 
+                                type="email" 
+                                name="email" 
+                                id="email"
+                                placeholder="Insert your email" 
+                                class="contact__form-input"
+                                required
+                            >
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="project" class="contact__form-tag">Project</label>
+                            <textarea 
+                                name="project" 
+                                id="project"
+                                cols="30" 
+                                rows="10" 
+                                placeholder="Write your project details"
+                                class="contact__form-input"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="button">
+                            <p style="color: #000;">Send Message
+                            <i class='bx bx-send'></i></p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="color: #000;">
+        <div class="footer__container container" style="color: #000;">
+            <h1 class="footer__title" style="color: #000;">Devansh Patel</h1>
+
+            <ul class="footer__list" style="color: #000;">
+                <li>
+                    <a href="#home" class="footer__link" style="color: #000;">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="footer__link" style="color: #000;">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link" style="color: #000;">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link" style="color: #000;">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link" style="color: #000;">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/share/1VVL8popaC/?mibextid=wwXIfr" class="footer__social-link" aria-label="Facebook">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/patel_devansh159?igsh=MW8ybHNzYnYybGF4MA%3D%3D&utm_source=qr" class="footer__social-link" aria-label="Instagram">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://x.com/pateldevansh159?s=21" class="footer__social-link" aria-label="Twitter">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2025 Devansh Patel. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!-- Preview Modal -->
+    <div id="previewModal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <div class="modal__gallery">
+                <button type="button" class="gallery__nav gallery__prev">
+                    <i class='bx bx-chevron-left'></i>
+                </button>
+                <div class="gallery__container">
+                    <img id="modalImage" src="" alt="Project Preview" class="modal__image" loading="lazy">
+                </div>
+                <button type="button" class="gallery__nav gallery__next">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+            </div>
+            <div class="gallery__dots"></div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div class="certificate-modal" id="certificateModal">
+        <div class="certificate-modal__content">
+            <button class="certificate-modal__close" id="certModalClose">
+                <i class='bx bx-x'></i>
+            </button>
+            <div class="certificate-modal__body">
+                <img src="" alt="Certificate View" id="certModalImg" class="certificate-modal__image" loading="lazy">
+            </div>
+            <div class="certificate-modal__info">
+                <h3 id="certModalTitle">Certificate Title</h3>
+                <p id="certModalTag">Organization</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
